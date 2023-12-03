@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(85, 85, 199);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container {
+    width: 800px;
+    height: 700px;
+    border: 1px solid rgb(209, 209, 209);
+   
+}
+
+h1 {
+    font-size: 2rem;
+    color: white;
+    margin-top: 5rem;
+}
+
+
+input {
+    width: 600px;
+    height:50px;
+    margin-left:80px;
+    margin-top: 20px;
+    
+}
+
+#button {
+border: none;
+ background-color: rgb(85, 85, 199);
+ cursor: pointer;
+
+}
+
+
+.icon { 
+    font-size: 1.1rem;
+    color: rgb(194, 191, 191);
+
+}
+.contentDiv {
+    width:500px ;
+    height: 50px;
+    margin-left:100px;
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid black;
+    font-size: 1.5rem;
+    color: white;
+    background-color:rgb(53, 53, 54) ;
+}
+
+.deleteButton {
+    width: 42px;
+    height: 30px;
+ display: inline-block;
+ color: rgb(114, 4, 4);
+ font-size: 2rem;
+ margin-left: 21rem;
+ cursor: pointer;
+
+}
